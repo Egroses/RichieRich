@@ -1,5 +1,27 @@
 # RichieRich
 
+## About Game
+This is a runner game.
+
+
+   Basically;
+
+  - User is trying to get rich and buy bag for womens.
+  
+  - If user has enough money, user can give money to the machine and buying the bag.
+
+  - If money or character hit any barrier, user loses money where beyond the barrier.
+  
+  - User deposits the money in the own account at the end.
+  
+  - User increases own level with the count of women user influences.
+  
+  - User raises on the ladder according to own level.
+
+   
+ Navmesh Agent, Dotween, Swerve System are used.
+
+ You can see images from game.
 
 ## Images From the Game
 
