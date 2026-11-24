@@ -1,47 +1,36 @@
 # RichieRich
 
-## About Game
-This is a runner game.
+Koşarken para toplanan, toplanan parayla çanta satın alınıp yanına takipçi toplanan bir mobil koşu oyunu.
 
+![Oynanış](Images/NormalGameplay.png)
 
-   Basically;
+## Neden?
 
-  - User is trying to get rich and buy bag for womens.
-  
-  - If user has enough money, user can give money to the machine and buying the bag.
+Toplanan paranın yığın hâlinde karakterin önünde taşındığı, engelde kaybedildiği ve sonunda harcandığı bir koşu oyunu ekonomisini; paranın sallanma ve süzülme efektleriyle birlikte denemek için yapıldı.
 
-  - If money or character hit any barrier, user loses money where beyond the barrier.
-  
-  - User deposits the money in the own account at the end.
-  
-  - User increases own level with the count of women user influences.
-  
-  - User raises on the ladder according to own level.
+## Oynanış
 
-   
- Navmesh Agent, Dotween, Swerve System are used.
+- Karakter koşarken para topluyor, para önünde yığın olarak taşınıyor.
+- Yeterli para varsa yoldaki makineye para verilip çanta satın alınıyor.
+- Çanta verilen karakterler takipçi olup oyuncunun peşinden geliyor.
+- Para ya da karakter bir engele çarparsa engelin ötesindeki paralar kaybediliyor.
+- Bölüm sonunda para hesaba yatırılıyor. Takipçi sayısı seviyeyi belirliyor, oyuncu seviyesine göre bitişteki merdivende yükseliyor.
 
- You can see images from game.
+## Ekranlar
 
-## Images From the Game
+| Çanta satın alma | Yeni takipçi |
+|---|---|
+| ![Çanta satın alma](Images/BuyingBag.png) | ![Yeni takipçi](Images/TakingLover.png) |
+| **Paranın süzülme efekti** | **Paranın sallanma efekti** |
+| ![Süzülme efekti](Images/LerpEffect.png) | ![Sallanma efekti](Images/JiggleEffect.png) |
+| **Takipçiler** | **Bitiş** |
+| ![Takipçiler](Images/AILover.png) | ![Bitiş](Images/FinishGame.png) |
 
-**Normal Gameplay**\
-![normal gameplay picture](https://github.com/Egroses/RichieRich/blob/main/Images/NormalGameplay.png)
+## Teknik
 
-**Buying Bag**\
-![buying bag picture](https://github.com/Egroses/RichieRich/blob/main/Images/BuyingBag.png)
-
-**Taking Lover**\
-![taking lover picture](https://github.com/Egroses/RichieRich/blob/main/Images/TakingLover.png)
-
-**Lerp Effect**\
-![lerp effect picture](https://github.com/Egroses/RichieRich/blob/main/Images/LerpEffect.png)
-
-**Jiggle Effect**\
-![jiggle effect picture](https://github.com/Egroses/RichieRich/blob/main/Images/JiggleEffect.png)
-
-**AI Lovers**\
-![ai lovers picture](https://github.com/Egroses/RichieRich/blob/main/Images/AILover.png)
-
-**Finish Game**\
-![finish game picture](https://github.com/Egroses/RichieRich/blob/main/Images/FinishGame.png)
+| | |
+|---|---|
+| **Motor** | Unity |
+| **Kullanılanlar** | NavMesh Agent, DOTween, swerve kontrolü, nesne havuzu |
+| **Bu repoda** | Yalnızca oyunun scriptleri (`Kodlar`) ve ekran görüntüleri (`Images`); Unity projesinin tamamı yok |
+| **GitHub'a yükleme** | Şubat 2023 |
